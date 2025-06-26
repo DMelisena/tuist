@@ -27,5 +27,5 @@ Selective testing works with `xcodebuild`, which supports any Xcode project, or 
 > [!IMPORTANT] INTEGRATION WITH GIT PLATFORM REQUIRED
 > To get automatic pull/merge request comments, integrate your <LocalizedLink href="/server/introduction/accounts-and-projects">Tuist project</LocalizedLink> with a <LocalizedLink href="/server/introduction/integrations#git-platforms">Git platform</LocalizedLink>.
 
-Once your Tuist project is connected with your Git platform such as [GitHub](https://github.com), and you start using `tuist xcodebuild test` or `tuist test` as part of your CI wortkflow, Tuist will post a comment directly in your pull/merge requests, including which tests were run and which skipped:
+Once your Tuist project is connected with your Git platform such as [GitHub](https://github.com), and you start using `tuist xcodebuild test` or `tuist test` as part of your CI workflow, Tuist will post a comment directly in your pull/merge requests, including which tests were run and which skipped:
 ![GitHub app comment with a Tuist Preview link](/images/guides/features/selective-testing/github-app-comment.png)
